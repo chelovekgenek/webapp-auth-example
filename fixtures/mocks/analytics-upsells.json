@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "Example Hat",
+    "items": 3,
+    "sold": 271,
+    "conversion": 0.6,
+    "latestAt": "2021-04-23T19:05:30.000Z",
+    "appearances": [0, 1]
+  },
+  {
+    "id": 2,
+    "name": "Example T-Shirt",
+    "items": 2,
+    "sold": 220,
+    "conversion": 0.667,
+    "latestAt": "2021-04-23T19:05:30.000Z",
+    "appearances": [1]
+  }
+]

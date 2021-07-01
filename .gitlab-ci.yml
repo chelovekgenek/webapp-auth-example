@@ -1,0 +1,61 @@
+image: node:12.16.1
+
+stages:
+  - install
+  - test
+  - build
+  - deploy
+
+cache:
+  key: $CI_PROJECT_ID
+  policy: pull
+  untracked: true
+
+install:
+  stage: install
+  only:
+    - merge_requests
+  script:
+    - yarn install
+  cache:
+    key: $CI_PROJECT_ID
+    policy: pull-push
+    paths:
+      - .yarn
+      - node_modules
+
+test:
+  stage: test
+  only:
+    - merge_requests
+  script:
+    - yarn test
+
+build:
+  stage: build
+  only:
+    - merge_requests
+  script:
+    - yarn build
+
+deploy_canary:
+  stage: deploy
+  only:
+    - canary
+  when: on_success
+  environment:
+    name: canary
+  script:
+    - git remote add heroku https://heroku:$HEROKU_API_KEY@git.heroku.com/plusone-canary.git
+    - git push -f heroku HEAD:master
+
+deploy_production:
+  stage: deploy
+  only:
+    - master
+  when: on_success
+  environment:
+    name: production
+  script:
+    - git remote add heroku https://heroku:$HEROKU_API_KEY@git.heroku.com/plusone-prod.git
+    - git push -f heroku HEAD:master

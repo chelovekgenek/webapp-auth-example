@@ -1,0 +1,167 @@
+[
+  {
+    "id": 1,
+    "name": "Example Hat",
+    "status": 1,
+    "appearance": 1,
+    "createdAt": "2021-03-31T10:53:50.861Z",
+    "updatedAt": "2021-04-05T11:32:15.715Z",
+    "trigger": {
+      "product": {
+        "id": 1,
+        "sid": 6248505049261,
+        "title": "Example Hat",
+        "image": {
+          "sid": 23634780192941,
+          "src": "https://cdn.shopify.com/s/files/1/0542/9844/3949/products/grey-hat.jpg?v=1612808000",
+          "alt": null
+        },
+        "variants": [
+          {
+            "sid": 38085303271597,
+            "title": "Grey",
+            "price": "17.99"
+          },
+          {
+            "sid": 38088910045357,
+            "title": "Black",
+            "price": "17.99"
+          }
+        ]
+      },
+      "variants": [38085303271597, 38088910045357]
+    },
+    "products": [
+      {
+        "id": 1,
+        "type": 1,
+        "enabled": true,
+        "description": "",
+        "product": {
+          "id": 2,
+          "sid": 6248504983725,
+          "title": "Example T-Shirt",
+          "image": {
+            "sid": 23634779668653,
+            "src": "https://cdn.shopify.com/s/files/1/0542/9844/3949/products/green-t-shirt.jpg?v=1612807996",
+            "alt": null
+          },
+          "variants": [
+            {
+              "sid": 38085303140525,
+              "title": "Lithograph - Height: 9\" x Width: 12\"",
+              "price": "25.00"
+            },
+            {
+              "sid": 38085303173293,
+              "title": "Small",
+              "price": "19.99"
+            },
+            {
+              "sid": 38085303206061,
+              "title": "Medium",
+              "price": "19.99"
+            }
+          ]
+        },
+        "discount": {
+          "type": 1,
+          "value": 10
+        }
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Example T-Shirt",
+    "status": 1,
+    "appearance": 0,
+    "createdAt": "2021-04-05T10:03:29.026Z",
+    "updatedAt": "2021-04-05T11:33:20.501Z",
+    "trigger": {
+      "product": {
+        "id": 2,
+        "sid": 6248504983725,
+        "title": "Example T-Shirt",
+        "image": {
+          "sid": 23634779668653,
+          "src": "https://cdn.shopify.com/s/files/1/0542/9844/3949/products/green-t-shirt.jpg?v=1612807996",
+          "alt": null
+        },
+        "variants": [
+          {
+            "sid": 38085303140525,
+            "title": "Lithograph - Height: 9\" x Width: 12\"",
+            "price": "25.00"
+          },
+          {
+            "sid": 38085303173293,
+            "title": "Small",
+            "price": "19.99"
+          },
+          {
+            "sid": 38085303206061,
+            "title": "Medium",
+            "price": "19.99"
+          }
+        ]
+      },
+      "variants": [38085303140525, 38085303173293, 38085303206061]
+    },
+    "products": [
+      {
+        "id": 2,
+        "type": 1,
+        "enabled": true,
+        "description": "",
+        "product": {
+          "id": 3,
+          "sid": 6248505016493,
+          "title": "Example Pants",
+          "image": {
+            "sid": 23634779963565,
+            "src": "https://cdn.shopify.com/s/files/1/0542/9844/3949/products/jeans-pants.jpg?v=1612807998",
+            "alt": null
+          },
+          "variants": [
+            {
+              "sid": 38085303238829,
+              "title": "Jeans, W32H34",
+              "price": "49.99"
+            }
+          ]
+        },
+        "discount": null
+      },
+      {
+        "id": 4,
+        "type": 0,
+        "enabled": true,
+        "description": "",
+        "product": {
+          "id": 1,
+          "sid": 6248505049261,
+          "title": "Example Hat",
+          "image": {
+            "sid": 23634780192941,
+            "src": "https://cdn.shopify.com/s/files/1/0542/9844/3949/products/grey-hat.jpg?v=1612808000",
+            "alt": null
+          },
+          "variants": [
+            {
+              "sid": 38085303271597,
+              "title": "Grey",
+              "price": "17.99"
+            },
+            {
+              "sid": 38088910045357,
+              "title": "Black",
+              "price": "17.99"
+            }
+          ]
+        },
+        "discount": null
+      }
+    ]
+  }
+]

@@ -1,0 +1,55 @@
+{
+  "data": {
+    "currentAppInstallation": {
+      "allSubscriptions": {
+        "edges": [
+          {
+            "node": {
+              "lineItems": [
+                {
+                  "id": "gid://shopify/AppSubscriptionLineItem/20844642471?v=1\u0026index=0",
+                  "plan": {
+                    "pricingDetails": {
+                      "price": { "amount": "29.99", "currencyCode": "USD" }
+                    }
+                  }
+                }
+              ],
+              "createdAt": "2021-01-25T17:54:12Z",
+              "id": "gid://shopify/AppSubscription/20844642471",
+              "name": "Pro Plan",
+              "status": "EXPIRED",
+              "test": false
+            }
+          },
+          {
+            "node": {
+              "lineItems": [
+                {
+                  "id": "gid://shopify/AppSubscriptionLineItem/21061468327?v=1\u0026index=0",
+                  "plan": {
+                    "pricingDetails": {
+                      "price": { "amount": "29.99", "currencyCode": "USD" }
+                    }
+                  }
+                }
+              ],
+              "createdAt": "2021-02-10T04:32:46Z",
+              "id": "gid://shopify/AppSubscription/21061468327",
+              "name": "Pro Plan",
+              "status": "EXPIRED",
+              "test": false
+            }
+          }
+        ]
+      }
+    }
+  },
+  "extensions": {
+    "cost": {
+      "requestedQueryCost": 399,
+      "actualQueryCost": 23,
+      "throttleStatus": { "maximumAvailable": 1000.0, "currentlyAvailable": 977, "restoreRate": 50.0 }
+    }
+  }
+}

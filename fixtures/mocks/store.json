@@ -1,0 +1,37 @@
+{
+  "id": 1,
+  "sid": 54298443949,
+  "origin": "evghenii-test5-store.myshopify.com",
+  "test": false,
+  "billing": 1,
+  "plan": {
+    "value": 0,
+    "trialDays": 0
+  },
+  "details": {
+    "city": "Chisinau",
+    "country": "MD",
+    "country_code": "MD",
+    "country_name": "Moldova, Republic of",
+    "created_at": "2021-02-08T20:09:39+02:00",
+    "currency": "MDL",
+    "domain": "evghenii-test5-store.myshopify.com",
+    "email": "evghenii@samo.technology",
+    "has_discounts": true,
+    "has_storefront": true,
+    "id": 54298443949,
+    "money_format": "{{amount}} MDL",
+    "myshopify_domain": "evghenii-test5-store.myshopify.com",
+    "name": "evghenii-test5-store",
+    "plan_display_name": "Developer Preview",
+    "plan_name": "partner_test",
+    "primary_locale": "en",
+    "province": "",
+    "province_code": null,
+    "setup_required": false,
+    "shop_owner": "Evghenii Notarius",
+    "timezone": "(GMT+02:00) Europe/Chisinau",
+    "zip": "2000",
+    "phone": ""
+  }
+}

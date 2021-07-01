@@ -1,0 +1,43 @@
+{
+  "product": {
+    "id": "gid://shopify/Product/6193796579507",
+    "title": "ACS MainDrive Headset",
+    "featuredImage": {
+      "originalSrc": "https://cdn.shopify.com/s/files/1/0532/6618/6419/products/ACS-HEADSET-WEB_0003_BLACK.jpg?v=1611137099",
+      "altText": "Black"
+    },
+    "variants": {
+      "edges": [
+        {
+          "node": {
+            "id": "gid://shopify/ProductVariant/38015207801011",
+            "title": "Black",
+            "price": "50.00"
+          }
+        },
+        {
+          "node": {
+            "id": "gid://shopify/ProductVariant/38015207833779",
+            "title": "Blue",
+            "price": "50.00"
+          }
+        },
+        {
+          "node": {
+            "id": "gid://shopify/ProductVariant/38015207866547",
+            "title": "Red",
+            "price": "50.00"
+          }
+        },
+        {
+          "node": {
+            "id": "gid://shopify/ProductVariant/38015207899315",
+            "title": "Gold",
+            "price": "50.00"
+          }
+        }
+      ]
+    },
+    "__typename": "Product"
+  }
+}

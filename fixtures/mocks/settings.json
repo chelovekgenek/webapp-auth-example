@@ -1,0 +1,12 @@
+{
+  "strings": { "buttons/cross-sell_done": "added" },
+  "discount": {
+    "id": 1,
+    "code": "qwerty",
+    "value": 10,
+    "type": 0,
+    "activated": true,
+    "validUntil": null,
+    "createdAt": "2021-03-01T08:38:03.637Z"
+  }
+}
